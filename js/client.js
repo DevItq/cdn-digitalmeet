@@ -6,25 +6,25 @@ const roomId = getRoomId();
 const peerLoockupUrl = 'https://extreme-ip-lookup.com/json/?key=demo2'; // get your API Key at https://extreme-ip-lookup.com
 const avatarApiUrl = 'https://eu.ui-avatars.com/api';
 const surveyURL = 'https://www.questionpro.com/t/AUs7VZq00L';
-const welcomeImg = '../images/image-placeholder.png';
-const shareUrlImg = '../images/image-placeholder.png';
-const leaveRoomImg = '../images/leave-room.png';
-const confirmImg = '../images/image-placeholder.png';
-const fileSharingImg = '../images/share.png';
-const roomLockedImg = '../images/locked.png';
-const camOffImg = '../images/cam-off.png';
-const audioOffImg = '../images/audio-off.png';
-const deleteImg = '../images/delete.png';
-const youtubeImg = '../images/youtube.png';
-const messageImg = '../images/message.png';
-const kickedOutImg = '../images/leave-room.png';
-const audioGif = '../images/audio.gif';
-const videoAudioShare = '../images/va-share.png';
-const aboutImg = '../images/mirotalk-logo.png';
-const imgFeedback = '../images/feedback.png';
-const forbiddenImg = '../images/forbidden.png';
-const avatarImg = '../images/mirotalk-logo.png';
-const camMicOff = '../images/cam-mic-off.png';
+const welcomeImg = 'https://devitq.github.io/cdn-digitalmeet/images/image-placeholder.png';
+const shareUrlImg = 'https://devitq.github.io/cdn-digitalmeet/images/image-placeholder.png';
+const leaveRoomImg = 'https://devitq.github.io/cdn-digitalmeet/images/leave-room.png';
+const confirmImg = 'https://devitq.github.io/cdn-digitalmeet/images/image-placeholder.png';
+const fileSharingImg = 'https://devitq.github.io/cdn-digitalmeet/images/share.png';
+const roomLockedImg = 'https://devitq.github.io/cdn-digitalmeet/images/locked.png';
+const camOffImg = 'https://devitq.github.io/cdn-digitalmeet/images/cam-off.png';
+const audioOffImg = 'https://devitq.github.io/cdn-digitalmeet/images/audio-off.png';
+const deleteImg = 'https://devitq.github.io/cdn-digitalmeet/images/delete.png';
+const youtubeImg = 'https://devitq.github.io/cdn-digitalmeet/images/youtube.png';
+const messageImg = 'https://devitq.github.io/cdn-digitalmeet/images/message.png';
+const kickedOutImg = 'https://devitq.github.io/cdn-digitalmeet/images/leave-room.png';
+const audioGif = 'https://devitq.github.io/cdn-digitalmeet/images/audio.gif';
+const videoAudioShare = 'https://devitq.github.io/cdn-digitalmeet/images/va-share.png';
+const aboutImg = 'https://devitq.github.io/cdn-digitalmeet/images/mirotalk-logo.png';
+const imgFeedback = 'https://devitq.github.io/cdn-digitalmeet/images/feedback.png';
+const forbiddenImg = 'https://devitq.github.io/cdn-digitalmeet/images/forbidden.png';
+const avatarImg = 'https://devitq.github.io/cdn-digitalmeet/images/mirotalk-logo.png';
+const camMicOff = 'https://devitq.github.io/cdn-digitalmeet/images/cam-mic-off.png';
 
 // nice free icon: https://www.iconfinder.com
 
@@ -7173,7 +7173,7 @@ function msgPopup(icon, message, position, timer = 1000) {
  */
 async function playSound(name) {
     if (!notifyBySound) return;
-    let sound = '../sounds/' + name + '.mp3';
+    let sound = 'https://devitq.github.io/cdn-digitalmeet/sounds/' + name + '.mp3';
     let audioToPlay = new Audio(sound);
     try {
         audioToPlay.volume = 0.5;
