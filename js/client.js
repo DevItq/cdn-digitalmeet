@@ -545,13 +545,13 @@ function setButtonsToolTip() {
     setTippy(captionSaveBtn, 'Сохранить сообщения', 'top');
     // settings
     setTippy(mySettingsCloseBtn, 'Закрыть', 'right');
-    setTippy(myPeerNameSetBtn, 'Сменить тему', 'top');
+    setTippy(myPeerNameSetBtn, 'Сменить имя', 'top');
     // tab btns
-    setTippy(tabDevicesBtn, 'Devices', 'top');
+    setTippy(tabDevicesBtn, 'Устройство', 'top');
     setTippy(tabBandwidthBtn, 'Bandwidth', 'top');
-    setTippy(tabRoomBtn, 'Room', 'top');
-    setTippy(tabStylingBtn, 'Styling', 'top');
-    setTippy(tabLanguagesBtn, 'Languages', 'top');
+    setTippy(tabRoomBtn, 'Встреча', 'top');
+    setTippy(tabStylingBtn, 'Стили', 'top');
+    setTippy(tabLanguagesBtn, 'Языки', 'top');
     // whiteboard btns
     setTippy(wbDrawingColorEl, 'Drawing color', 'bottom');
     setTippy(whiteboardGhostButton, 'Toggle transparent background', 'bottom');
@@ -571,8 +571,8 @@ function setButtonsToolTip() {
     setTippy(whiteboardCleanBtn, 'Clean the board', 'bottom');
     setTippy(whiteboardCloseBtn, 'Close', 'right');
     // room actions btn
-    setTippy(muteEveryoneBtn, 'Mute everyone except yourself', 'top');
-    setTippy(hideEveryoneBtn, 'Hide everyone except yourself', 'top');
+    setTippy(muteEveryoneBtn, 'Отключить всем микрофон', 'top');
+    setTippy(hideEveryoneBtn, 'Отключить всем камеру', 'top');
     // Suspend/Hide File transfer btn
     setTippy(sendAbortBtn, 'Abort file transfer', 'right-start');
     setTippy(receiveHideBtn, 'Hide file transfer', 'right-start');
