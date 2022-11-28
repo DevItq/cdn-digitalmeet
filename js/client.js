@@ -509,43 +509,43 @@ function setButtonsToolTip() {
     // not need for mobile
     if (isMobileDevice) return;
     // main buttons
-    setTippy(shareRoomBtn, 'Invite others to join', 'right-start');
-    setTippy(audioBtn, 'Stop the audio', 'right-start');
-    setTippy(videoBtn, 'Stop the video', 'right-start');
-    setTippy(screenShareBtn, 'Start screen sharing', 'right-start');
-    setTippy(recordStreamBtn, 'Start recording', 'right-start');
-    setTippy(fullScreenBtn, 'View full screen', 'right-start');
-    setTippy(chatRoomBtn, 'Open the chat', 'right-start');
-    setTippy(captionBtn, 'Open the caption', 'right-start');
-    setTippy(myHandBtn, 'Raise your hand', 'right-start');
-    setTippy(whiteboardBtn, 'Open the whiteboard', 'right-start');
-    setTippy(fileShareBtn, 'Share file', 'right-start');
-    setTippy(mySettingsBtn, 'Open settings', 'right-start');
-    setTippy(aboutBtn, 'About this project', 'right-start');
-    setTippy(leaveRoomBtn, 'Leave this room', 'right-start');
+    setTippy(shareRoomBtn, 'Пригласить других присоедениться', 'right-start');
+    setTippy(audioBtn, 'Выключить микрофон', 'right-start');
+    setTippy(videoBtn, 'Выключить видео', 'right-start');
+    setTippy(screenShareBtn, 'Запустить демонстрацию экрана', 'right-start');
+    setTippy(recordStreamBtn, 'Начать запись', 'right-start');
+    setTippy(fullScreenBtn, 'Развернуть на весь экран', 'right-start');
+    setTippy(chatRoomBtn, 'Открыть чат', 'right-start');
+    setTippy(captionBtn, 'Субтитры', 'right-start');
+    setTippy(myHandBtn, 'Поднять руку', 'right-start');
+    setTippy(whiteboardBtn, 'Открыть доску', 'right-start');
+    setTippy(fileShareBtn, 'Поделиться файлом', 'right-start');
+    setTippy(mySettingsBtn, 'Настройки', 'right-start');
+    setTippy(aboutBtn, 'О проекте', 'right-start');
+    setTippy(leaveRoomBtn, 'Покинуть комнату', 'right-start');
     // chat room buttons
-    setTippy(msgerTheme, 'Ghost theme', 'top');
-    setTippy(msgerCPBtn, 'Private messages', 'top');
-    setTippy(msgerClean, 'Clean the messages', 'top');
-    setTippy(msgerSaveBtn, 'Save the messages', 'top');
-    setTippy(msgerClose, 'Close', 'right');
-    setTippy(msgerEmojiBtn, 'Emoji', 'top');
+    setTippy(msgerTheme, 'Призрачная тема', 'top');
+    setTippy(msgerCPBtn, 'Личные сообщения', 'top');
+    setTippy(msgerClean, 'Очистить сообщения', 'top');
+    setTippy(msgerSaveBtn, 'Сохранить сообщения', 'top');
+    setTippy(msgerClose, 'Закрыть', 'right');
+    setTippy(msgerEmojiBtn, 'Эмоджи', 'top');
     setTippy(msgerMarkdownBtn, 'Markdown', 'top');
-    setTippy(msgerShareFileBtn, 'Share file', 'top');
-    setTippy(msgerCleanTextBtn, 'Clean', 'top');
-    setTippy(msgerPasteBtn, 'Paste', 'top');
-    setTippy(msgerShowChatOnMsg, "Show me when I'm receive a new message", 'top');
-    setTippy(msgerSendBtn, 'Send', 'top');
+    setTippy(msgerShareFileBtn, 'Поделиться файлом', 'top');
+    setTippy(msgerCleanTextBtn, 'Очистить', 'top');
+    setTippy(msgerPasteBtn, 'Вставить', 'top');
+    setTippy(msgerShowChatOnMsg, "Открыть это окно, когда я получу сообщение", 'top');
+    setTippy(msgerSendBtn, 'Отправить', 'top');
     // chat participants buttons
-    setTippy(msgerCPCloseBtn, 'Close', 'left');
+    setTippy(msgerCPCloseBtn, 'Закрыть', 'left');
     // caption buttons
-    setTippy(captionClose, 'Close', 'right');
-    setTippy(captionTheme, 'Ghost theme', 'top');
-    setTippy(captionClean, 'Clean the messages', 'top');
-    setTippy(captionSaveBtn, 'Save the messages', 'top');
+    setTippy(captionClose, 'Закрыть', 'right');
+    setTippy(captionTheme, 'Призрачная тема', 'top');
+    setTippy(captionClean, 'Очистить сообщения', 'top');
+    setTippy(captionSaveBtn, 'Сохранить сообщения', 'top');
     // settings
-    setTippy(mySettingsCloseBtn, 'Close', 'right');
-    setTippy(myPeerNameSetBtn, 'Change name', 'top');
+    setTippy(mySettingsCloseBtn, 'Закрыть', 'right');
+    setTippy(myPeerNameSetBtn, 'Сменить тему', 'top');
     // tab btns
     setTippy(tabDevicesBtn, 'Devices', 'top');
     setTippy(tabBandwidthBtn, 'Bandwidth', 'top');
